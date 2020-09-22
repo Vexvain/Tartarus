@@ -1,0 +1,730 @@
+╔═════════════════════════╗
+║         Tartarus        ║                                 
+║           ---           ║                                 ║     TARTARUS I : BETA   ║
+║          GL3.0          ║                                 ╚═════════════════════════╝
+║           666           ║
+╚═════════════════════════╝ 
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+
+echo -e "         \e[38;5;201m╔═══════════════════════════╗     \e[38;5;201m╔═════════════════════════╗
+         \e[38;5;201m║    \e[38;5;202m Welcome To Tartarus I   \e[38;5;201m║     \e[38;5;201m║         \e[38;5;202mTartarus I        \e[38;5;201m║
+         \e[38;5;201m╠═══════════════════════════╣     \e[38;5;201m║           ---           \e[38;5;201m║
+         \e[38;5;201m║ \e[38;5;202mDevices: \e[38;5;201m1928             \e[38;5;201m║     \e[38;5;201m║          \e[38;5;202mGL3.0          \e[38;5;201m║
+         \e[38;5;201m║ \e[38;5;202mUsers: \e[38;5;201m2                  \e[38;5;201m║     \e[38;5;201m║          \e[38;5;202m 666           \e[38;5;201m║
+         \e[38;5;201m╠═══════════════════════════╣     \e[38;5;201m╠═════════════════════════╣
+         \e[38;5;201m║  \e[38;5;202m  Vex   \e[38;5;201m║     \e[38;5;201m║ \e[38;5;202m Main Commands Listing  \e[38;5;201m║
+         \e[38;5;201m║  \e[38;5;202m    \e[38;5;201m║     \e[38;5;201m╠═══════════╦╦════════════╣
+         \e[38;5;201m╠═══════════════════════════╣     \e[38;5;201m║ \e[38;5;202m.help     \e[38;5;201m║║ \e[38;5;202mShows all  \e[38;5;201m║
+         \e[38;5;201m║ \e[38;5;202mUsername: \e[38;5;201mVex            \e[38;5;201m║     \e[38;5;201m║ \e[38;5;202m.logout   \e[38;5;201m║║ \e[38;5;202mLogs Out   \e[38;5;201m║
+         \e[38;5;201m║ \e[38;5;202mLevel: \e[38;5;201mAdmin              \e[38;5;201m║     \e[38;5;201m║ \e[38;5;202m.stress   \e[38;5;201m║║ \e[38;5;202mDDoS Cmds  \e[38;5;201m║
+         \e[38;5;201m║ \e[38;5;202mType: \e[38;5;201mOwner               \e[38;5;201m║     \e[38;5;201m║ \e[38;5;202m.clear    \e[38;5;201m║║ \e[38;5;202mClear scrn \e[38;5;201m║
+         \e[38;5;201m╚═════════════╦╦════════════╝     \e[38;5;201m╚═══════════╬╬════════════╝
+         \e[38;5;201m              ║║                  \e[38;5;201m            ║║
+   \e[38;5;201m╔═══════════════════╩╩══════════════════════════════╩╩══════════════════╗
+   \e[38;5;201m║ \e[38;5;202mLICENSING \e[38;5;201m: \e[38;5;202mGNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]            \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202mCCR       \e[38;5;201m: \e[38;5;202mXXX-223-389                                               \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202mCIPHER    \e[38;5;201m: \e[38;5;202mSHA-512 , AES-BYTE , CIPHER-TLS                           \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202mSTATE     \e[38;5;201m: \e[38;5;202mPRIVATE                                                   \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202mOBJ-TYPE  \e[38;5;201m: \e[38;5;202mC2 SOURCE X TELNET LAYER                                  \e[38;5;201m║
+   \e[38;5;201m╚═══════════════════════════════════════════════════════════════════════╝
+
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;82m @            
+"
+
+
+\e[38;5;201m╔═══════════════════════════════════╗\r\n
+\e[38;5;201m║         Welcome To Tartarus         \e[38;5;201m║\r\n
+\e[38;5;201m║         C2  Telnet Layer         \e[38;5;201m╠════════╗\r\n
+\e[38;5;201m║  Server Is Sucessfully Screened!  \e[38;5;201m║        ║     ╔════════════════════════╗\r\n
+\e[38;5;201m╚═════╦═════════════════════════════╝        ╚═════╣ \e[38;5;202mCreated By Vex   \e[38;5;201m║\r\n
+      \e[38;5;201m║                                            ╚═════╦══════════════════╝\r\n
+      \e[38;5;201m║   ╔════╗                                         \e[38;5;201m║\r\n
+      \e[38;5;201m╚═══╣ \e[38;5;93m<3 \e[38;5;201m╠═════╗         ╔════════════╗            \e[38;5;201m║\r\n
+          \e[38;5;201m╚════╝     ║         ║ \e[38;5;202mRIP Katura \e[38;5;201m╠════════════╝\r\n
+                     \e[38;5;201m║         ╚═══╦════════╝\r\n
+                     \e[38;5;201m║             ║\r\n
+                     \e[38;5;201m║             ║\r\n
+                     \e[38;5;201m╚═════════════╝\r\n
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+
+
+
+CLEAR\r\n");
+LOGOUT\r\n");
+TOOLS\r\n");
+STAFF\r\n");
+STRESS\r\n");
+INFORMATION\r\n");
+
+  Help Banner
+╔══════════════════════════════════════════════╗
+║   Tartarus - Main Command List - Extra Cmds  ║
+╠══════════════════════════════════════════════╣
+║ .stress - Shows a list of available methods  ║
+║ .clear - Clears the Screen                   ║
+║ .logout - Logs out, and closes the C2        ║
+║ .bots - Shows a list of connected devices    ║
+║ .info - Shows a list of user information     ║
+║ .tools - Shows a list of available tools     ║
+║ .staff - Administrators only!                ║
+╚══════════════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+echo -e "
+           \e[38;5;201m╔══════════════════════════════════════════════╗
+           \e[38;5;201m║   \e[38;5;202mTartarus I \e[38;5;201m-\e[38;5;202m Main Command List\e[38;5;201m - \e[38;5;202mExtra Cmds  \e[38;5;201m║
+           \e[38;5;201m╠══════════════════════════════════════════════╣
+           \e[38;5;201m║ \e[38;5;202m.stress \e[38;5;201m- \e[38;5;202mShows a list of available methods  \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.clear \e[38;5;201m- \e[38;5;202mClears the Screen                   \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.logout \e[38;5;201m- \e[38;5;202mLogs out, and closes the C2        \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.bots \e[38;5;201m- \e[38;5;202mShows a list of connected devices    \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.info \e[38;5;201m- \e[38;5;202mShows a list of user information     \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.tools \e[38;5;201m- \e[38;5;202mShows a list of available tools     \e[38;5;201m║
+           \e[38;5;201m║ \e[38;5;202m.staff \e[38;5;201m- \e[38;5;202mAdministrators only!                \e[38;5;201m║
+           \e[38;5;201m╚══════════════════════════════════════════════╝
+"
+
+                        ╔═════════════════════════════╗
+                        ║     Welcome To Tartarus     ║
+                        ║ Please Enter your Username  ║
+                        ║ In the Login Prompt Below   ║
+                        ╚═════════════════════════════╝     
+                    ╔═════════════════════════════════════╗
+                    ║        This Source Code is          ║
+                    ║      Licensed under GPU V3.0        ║
+                    ║  FOR ALLOWED USE IN 'CYBER-WARFARE' ║
+                    ║      UNDER 'VEX-VAIN.TARTARUS'      ║
+                    ╚═════════════════════════════════════╝
+
+                   ╔═════════════════════════════╗
+                   ║     Welcome To Tartarus     ║
+                   ║ Please Enter your Username  ║
+                   ║ In the Login Prompt Below   ║
+                   ╚═════════════════════════════╝
+              ╔═════════════════════════════════════╗
+              ║        This Source Code is          ║
+              ║      Licensed under GPU V3.0        ║
+              ║  FOR ALLOWED USE IN 'CYBER-WARFARE' ║
+              ╚═════════════════════════════════════╝
+Username: Vex
+
+
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+
+echo -e "                  \e[38;5;201m╔═════════════════════════════╗
+                  \e[38;5;201m║     \e[38;5;202mWelcome To Tartarus I     \e[38;5;201m║
+                  \e[38;5;201m║ \e[38;5;202mPlease Enter your Username  \e[38;5;201m║
+                  \e[38;5;201m║ \e[38;5;202mIn the Login Prompt Below   \e[38;5;201m║
+                  \e[38;5;201m╚═════════════════════════════╝     
+              \e[38;5;201m╔═════════════════════════════════════╗
+              \e[38;5;201m║        \e[38;5;202mThis Source Code is          \e[38;5;201m║
+              \e[38;5;201m║     \e[38;5;202m Licensed under GPU V3.0        \e[38;5;201m║
+              \e[38;5;201m║  \e[38;5;202mFOR ALLOWED USE IN 'CYBER-WARFARE' \e[38;5;201m║
+              \e[38;5;201m╚═════════════════════════════════════╝
+\e[38;5;201mUsername:\e[38;5;202m Vex
+"
+
+
+THIS CODE HAS BEEN LICENSED UNDER GPU V3.0 
+FOR ALLOWED USE IN 'CYBER-WARFARE'         
+
+            ╔═══════════════════════════╗     ╔═════════════════════════╗
+            ║     Welcome To Tartarus   ║     ║         Tartarus        ║
+            ╠═══════════════════════════╣     ║           ---           ║
+            ║ Devices: 1928             ║     ║          GL3.0          ║
+            ║ Users: 2                  ║     ║           666           ║
+            ╠═══════════════════════════╣     ╠═════════════════════════╣
+            ║  Vexvain                  ║     ║  Main Commands Listing  ║
+            ║  Vex                      ║     ╠═══════════╦╦════════════╣
+            ╠═══════════════════════════╣     ║ .help     ║║ Shows all  ║
+            ║ Username: Vex             ║     ║ .logout   ║║ Logs Out   ║
+            ║ Level: Admin              ║     ║ .stress   ║║ DDoS Cmds  ║
+            ║ Type: Owner               ║     ║ .clear    ║║ Clear scrn ║
+            ╚═════════════╦╦════════════╝     ╚═══════════╬╬════════════╝
+                          ║║                              ║║
+      ╔═══════════════════╩╩══════════════════════════════╩╩══════════════════╗
+      ║ LICENSING : GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]            ║
+      ║ CCR       : XXX-223-389                                               ║
+      ║ CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                           ║
+      ║ STATE     :  PRIVATE                                                  ║
+      ║ OBJ-TYPE  : C2 SOURCE X TELNET LAYER                                  ║
+      ╚═══════════════════════════════════════════════════════════════════════╝
+
+
+
+            \e[38;5;201m╔═══════════════════════════╗     ╔═══════════════════════════╗
+            \e[38;5;201m║     \e[38;5;202mWelcome To Tartarus     \e[38;5;201m║     ║         \e[38;5;202mTartarus I          \e[38;5;201m║
+            \e[38;5;201m║  \e[38;5;202m and   \e[38;5;201m║     ║           \e[38;5;201m---             \e[38;5;201m║
+            \e[38;5;201m║  \e[38;5;202mThis is the beta version \e[38;5;201m║     ║         \e[38;5;202m GL3.0            \e[38;5;201m║
+            \e[38;5;201m║  \e[38;5;202mNew methods coming soon! \e[38;5;201m║     ║           \e[38;5;202m666             \e[38;5;201m║
+            \e[38;5;201m╠═══════════════════════════╣     ╠═══════════════════════════╣
+            \e[38;5;201m║  \e[38;5;202m  Vex   \e[38;5;201m║     ║  \e[38;5;202m Main Commands Listing   \e[38;5;201m║
+            \e[38;5;201m║  \e[38;5;202m    \e[38;5;201m║     ╠═══════════════════════════╣
+            \e[38;5;201m╠═══════════════════════════╣     ║ \e[38;5;202m.help        \e[38;5;202mShows all    \e[38;5;201m║
+            \e[38;5;201m║ \e[38;5;202mOS_Sys: \e[38;5;202mCentOS \e[38;5;201m[\e[38;5;202m6\e[38;5;201m] \e[38;5;201m- \e[38;5;201m[\e[38;5;202m7\e[38;5;201m]  \e[38;5;201m║     ║ \e[38;5;202m.logout      \e[38;5;202mLogs Out     \e[38;5;201m║
+            \e[38;5;201m║ \e[38;5;202mLSC: \e[38;5;202mGL3.0                \e[38;5;201m║     ║ \e[38;5;202m.stress      \e[38;5;202mDDoS Cmds    \e[38;5;201m║
+            \e[38;5;201m║ \e[38;5;202mType:\e[38;5;202m Owner               \e[38;5;201m║     ║ \e[38;5;202m.clear       \e[38;5;202mClear scrn   \e[38;5;201m║
+            \e[38;5;201m╚═══════════════════════════╝     ╚═══════════════════════════╝
+  
+      \e[38;5;201m╔════════════════════════════════════════════════════════════════════════╗
+      \e[38;5;201m║ \e[38;5;202mLICENSING \e[38;5;201m: \e[38;5;202mGNUV3 \e[38;5;201m[\e[38;5;202mGNU GENERAL PUBLIC LICENSE VERSION 3.0\e[38;5;201m]             \e[38;5;201m║
+      \e[38;5;201m║ \e[38;5;202mCCR       \e[38;5;201m: \e[38;5;202mXXX-223-389                                                \e[38;5;201m║
+      \e[38;5;201m║ \e[38;5;202mCIPHER    \e[38;5;201m: \e[38;5;202mSHA-512 , AES-BYTE , CIPHER-TLS                            \e[38;5;201m║
+      \e[38;5;201m║ \e[38;5;202mSTATE     \e[38;5;201m: \e[38;5;202mPRIVATE                                                    \e[38;5;201m║
+      \e[38;5;201m║ \e[38;5;202mOBJ-TYPE  \e[38;5;201m: \e[38;5;202mC2 SOURCE X TELNET LAYER                                   \e[38;5;201m║
+      \e[38;5;201m╚════════════════════════════════════════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;82m @ 
+
+        sprintf(stress_cmd1,   "          [+]  M E T H O D S [+]\r\n");
+        sprintf(Method_STD,    "!* STD [IP] [PORT] [TIME]\r\n");
+        sprintf(Method_UDP,    "!* UDP [IP] [PORT] [TIME] 32 1460 10\r\n");
+        sprintf(Method_TCP,    "!* TCP [IP] [PORT] [TIME] 32 ALL 0 10\r\n");
+        sprintf(Method_STOMP,  "!* STOMP [IP] [PORT] [TIME] 32 ALL 1460 10\r\n");
+        sprintf(Method_CRUSH,  "!* CRUSH [IP] [PORT] [TIME] 32 ALL 1460 10\r\n");
+        sprintf(Method_Tartarus,  "!* Tartarus [IP] [PORT] [TIME]\r\n");
+        sprintf(Method_Tartarus,  "!* HEX [IP] [PORT] [TIME] 1460\r\n");
+
+╔═════════════════════════════════════════════════════╗
+║ Tartarus - DDoS Method Listing - Attack Method CmDs ║
+╠═════════════════════════════════════════════════════╣
+║ .STD [IP] [PORT] [TIME]                             ║
+║ .UDP [IP] [PORT] [TIME] 32 1460 10                  ║
+║ .JUNK [IP] [PORT] [TIME]                            ║
+║ .LYNX [IP] [PORT] [TIME] 32 1460 10                 ║
+║ .TCP [IP] [PORT] [TIME] 32 (Flags/ALL) 0 10         ║
+║ .COMBO [IP] [PORT] [TIME]                           ║
+║ .STOP [This will stop your attack!]                 ║
+╚═════════════════════════════════════════════════════╝
+ip, port, time, 32 1460 10
+
+// crush, junk, stomp > taken out lynx
+
+╔═════════════════════════════════════════════════════╗
+║ Tartarus - DDoS Method Listing - Attack Method CmDs ║
+╠═════════════════════════════════════════════════════╣
+║ .STD [IP] [PORT] [TIME]                             ║
+║ .UDP [IP] [PORT] [TIME] 32 1460 10                  ║
+║ .JUNK [IP] [PORT] [TIME]                            ║
+║ .STOMP [IP] [PORT] [TIME] 32 ALL 1460 10            ║
+║ .TCP [IP] [PORT] [TIME] 32 (Flags/ALL) 0 10         ║
+║ .COMBO [IP] [PORT] [TIME]                           ║
+║ .CRUSH [IP] [PORT] [TIME] 32 ALL 1460 10            ║
+║ .STOP [This will stop your attack!]                 ║
+╚═════════════════════════════════════════════════════╝
+
+!* STOMP [IP] [PORT] [TIME] 32 ALL 1460 10
+!* CRUSH [IP] [PORT] [TIME] 32 ALL 1460 10
+
+      \r\n", accounts[find_line].user, buf);
+      \r\n", accounts[find_line].password, buf);
+      \r\n", accounts[find_line].id, buf);
+
+
+╔═════════════════════════════════════════════════════╗
+║ Tartarus - DDoS Method Listing - Attack Method CmDs ║
+╠═════════════════════════════════════════════════════╣
+║ .STD [IP] [PORT] [TIME]                             ║ ╔═══════════════════════╗
+║ .UDP [IP] [PORT] [TIME] 32 1460 10                  ║ ║ Suggested Port: 62627 ║
+║ .JUNK [IP] [PORT] [TIME]                            ║ ║ Suggested PSize: 1460 ║
+║ .STOMP [IP] [PORT] [TIME] 32 ALL 1460 10            ║ ║ Suggested Method: STD ║
+║ .TCP [IP] [PORT] [TIME] 32 (Flags/ALL) 0 10         ║ ║ Suggested Method: UDP ║
+║ .COMBO [IP] [PORT] [TIME]                           ║ ║ Max Time: 300         ║
+║ .CRUSH [IP] [PORT] [TIME] 32 ALL 1460 10            ║ ╚═══════════════════════╝
+║ .STOP [This will stop your attack!]                 ║ 
+╚═════════════════════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+
+╔═════════════════════════════╗
+║ Tartarus User Information   ║     ╔═══════════════════╗
+╠═════════════════════════════╣═══╗ ║ More Coming soon! ║
+║ Username: %s                ║   ║ ║      Such As      ║\r\n", accounts[find_line].user, buf);
+║ Password: %s                ║   ╚═╬═══════════════════╣\r\n", accounts[find_line].password, buf);
+║ User Level: %s              ║     ║ User IP:          ║\r\n", accounts[find_line].id, buf);
+║ User Plan: %s               ║     ║ Time Left:        ║\r\n", accounts[find_line].plan, buf);
+╚═══════════╦═════════════════╝     ╚══════════════╦════╝
+            ║                                      ║
+            ║                                      ║
+            ║                                      ║
+   ╔════════╩══════════════════════════════════════╩═════════╗
+   ║                          Vexvain                        ║
+   ║                                                         ║  
+   ╚═════════════════════════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+.STD \
+.UDP \
+.JUNK 
+.CRUSH
+.STOMP
+.TCP \
+.COMBO
+.STOP 
+echo -e "
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!      \e[38;5;201m   ║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: STD       \e[38;5;201m   ╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: STDFLOOD   \e[38;5;201m   ║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!        \e[38;5;201m ║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: UDP         \e[38;5;201m ╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: UDPFLOOD     \e[38;5;201m ║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!        \e[38;5;201m ║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: JUNK        \e[38;5;201m ╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: JUNKFLOOD    \e[38;5;201m ║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+
+
+     \e[38;5;201m╔════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!           \e[38;5;201m║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: STOMP          \e[38;5;201m╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: UDP  STD  TCP \e[38;5;201m║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚════════════════════════╝\r\n
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!         \e[38;5;201m║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: TCP          \e[38;5;201m╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: TCPFLOOD      \e[38;5;201m║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!         \e[38;5;201m║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: CRUSH        \e[38;5;201m╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: STD  TCP     \e[38;5;201m║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+
+
+     \e[38;5;201m╔══════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mAttack Sent!         \e[38;5;201m║      ╔═══════════════════════════╗\r\n
+     \e[38;5;201m║ \e[38;5;202mMethod: COMBO        \e[38;5;201m╠══════╣ \e[38;5;202m.STOP to stop the attack! \e[38;5;201m║\r\n
+     \e[38;5;201m║ \e[38;5;202mUsage: JUNK  HOLD   \e[38;5;201m║      ╚═══════════════════════════╝\r\n
+     \e[38;5;201m╚══════════════════════╝\r\n
+"
+echo -e "
+              \e[38;5;201m╔═══════════════════════════════╗\r\n
+              \e[38;5;201m║      \e[38;5;202mWhy did you stop? ):     \e[38;5;201m║\r\n
+              \e[38;5;201m║  \e[38;5;202mTesting something perhaps?   \e[38;5;201m║\r\n
+              \e[38;5;201m║  \e[38;5;202mMeh, its oki, i stopped </3  \e[38;5;201m║\r\n
+              \e[38;5;201m╚═══════════════════════════════╝\r\n
+
+     ╔══════════════════════╗
+     ║ Attack Sent!         ║
+     ║ Method:              ║
+     ║ Usage:               ║
+     ╚══════════════════════╝
+
+     ╔══════════════════════╗
+     ║ Attack Sent!         ║
+     ║ Method:              ║
+     ║ Usage:               ║
+     ╚══════════════════════╝
+
+╔═════════════════════╗     ╔════════════════════════════════════════════╗
+║ Welcome To Tartarus ╠═════╣   If you do not know what this page is     ║
+╚════════╦════════════╝     ║ Please Hit the (X) Button at the top right ║
+         ║                  ╚════════════════════════════════╦═══════════╝
+         ║                                                   ║
+         ║                                                   ║
+╔════════╩═══════════════════════╗                           ║
+║     This source is licensed    ║     ╔═════════════════════╩═══════════╗
+║       Under GPU V3.0 For       ╠═════╣      Login Prompted Below       ║
+║ Allowed use in 'CYBER-WARFARE' ║     ║ Please Enter your crededentials ║
+╚════════════════════════════════╝     ╚═════════════════════════════════╝
+
+
+
+
+echo -e "\e[38;5;201m╔═════════════════════════════╗
+\e[38;5;201m║ \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mUser Information \e[38;5;201m║     ╔═══════════════════╗
+\e[38;5;201m╠═════════════════════════════╣═══╗ ║\e[38;5;202m More Coming soon! \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202mUsername: \e[38;5;201m%s                \e[38;5;201m║   ║ ║      \e[38;5;202mSuch As      \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202mPassword: \e[38;5;201m%s                \e[38;5;201m║   ╚═╬═══════════════════╣
+\e[38;5;201m║ \e[38;5;202mUser Level: \e[38;5;201m%s              \e[38;5;201m║     ║ \e[38;5;202mUser IP:          \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202mUser Plan: \e[38;5;201m%s               \e[38;5;201m║     ║ \e[38;5;202mTime Left:        \e[38;5;201m║
+\e[38;5;201m╚═══════════╦═════════════════╝     ╚══════════════╦════╝
+\e[38;5;201m            ║                                      ║
+\e[38;5;201m            ║                                      ║
+\e[38;5;201m            ║                                      ║
+\e[38;5;201m   ╔════════╩══════════════════════════════════════╩═════════╗
+\e[38;5;201m   ║   \e[38;5;202m     \e[38;5;201m║
+\e[38;5;201m   ║     \e[38;5;93m#4337 \e[38;5;201m-  \e[38;5;202mOwO  \e[38;5;201m- \e[38;5;93m#9845      \e[38;5;201m║  
+\e[38;5;201m   ╚═════════════════════════════════════════════════════════╝
+"
+
+      sprintf(mips,     "Tartarus@mps-[%d]\r\n", mipsConnected());
+      sprintf(arm,      "Tartarus@arm-[%d]\r\n", armConnected());
+      sprintf(sh4,      "Tartarus@sh4-[%d]\r\n", sh4Connected());
+      sprintf(ppc,      "Tartarus@ppc-[%d]\r\n", ppcConnected());
+      sprintf(x86,      "Tartarus@x86-[%d]\r\n", x86Connected());
+      sprintf(spc,      "Tartarus@spc-[%d]\r\n", spcConnected());
+      sprintf(total,    "Tartarus@ttl-[%d]\r\n", clientsConnected());
+\e[38;5;201m╔════════════════════════════════════════════╗\r\n");
+\e[38;5;201m║ \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mDevice Listing \e[38;5;201m- \e[38;5;202mArch Detection \e[38;5;201m║\r\n");
+\e[38;5;201m╠════════════════════════════════════════════╣\r\n");
+\e[38;5;201m║ \e[38;5;202mMips Devices: \e[38;5;201m%d                           \e[38;5;201m║\r\n", mipsConnected());
+\e[38;5;201m║ \e[38;5;202mArm Devices: \e[38;5;201m%d                            \e[38;5;201m║\r\n", armConnected());
+\e[38;5;201m║ \e[38;5;202mSh4 Devices: \e[38;5;201m%d                            \e[38;5;201m║\r\n", sh4Connected());
+\e[38;5;201m║ \e[38;5;202mPpc Devices: \e[38;5;201m%d                            \e[38;5;201m║\r\n", ppcConnected());
+\e[38;5;201m║ \e[38;5;202mx86 Devices: \e[38;5;201m%d                            \e[38;5;201m║\r\n", x86Connected());
+\e[38;5;201m║ \e[38;5;202mSpc Devices: \e[38;5;201m%d                            \e[38;5;201m║\r\n", spcConnected());
+\e[38;5;201m║ \e[38;5;202mTotal IoT Devices: \e[38;5;201m%d                      \e[38;5;201m║\r\n", clientsConnected());
+\e[38;5;201m╚════════════════════════════════════════════╝\r\n");
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+
+Tartarus@mps-[%d]\r\n", mipsConnected());
+Tartarus@arm-[%d]\r\n", armConnected());
+Tartarus@sh4-[%d]\r\n", sh4Connected());
+Tartarus@ppc-[%d]\r\n", ppcConnected());
+Tartarus@x86-[%d]\r\n", x86Connected());
+Tartarus@spc-[%d]\r\n", spcConnected());
+Tartarus@ttl-[%d]\r\n", clientsConnected());
+
+\e[38;5;201m╔════════════════════════════════════════╗\r\n
+\e[38;5;201m║ \e[38;5;202mYou Do Not Have the needed Permissions \e[38;5;201m║\r\n
+\e[38;5;201m║      \e[38;5;202mTo View or use this command!      \e[38;5;201m║\r\n
+\e[38;5;201m╚═══════════════════════════════╦════════╝\r\n
+                                \e[38;5;201m║\r\n
+                                \e[38;5;201m║\r\n
+         \e[38;5;201m╔══════════════════════╩═══════════════════════════╗\r\n
+         \e[38;5;201m║   \e[38;5;202m VEXVAIN    \e[38;5;201m║\r\n
+         \e[38;5;201m║  \e[38;5;93m#4337 \e[38;5;201m-  \e[38;5;202mOwO  \e[38;5;201m- \e[38;5;93m#9845  \e[38;5;201m║\r\n
+         \e[38;5;201m╚══════════════════════════════════════════════════╝\r\n
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+
+
+
+╔════════════════════════════════════╗
+║  Tartarus - Main Menu - Welcome!   ║
+╠════════════════════════════════════╣
+║    Welcome to Project Tartarus     ╠════╗
+║  This source is currently in beta  ║    ║       ╔════╗
+╚════════════════════════╦═══════════╝    ╚═══════╣ <3 ╠══════════╗
+                         ║ Vexvain                ╚════╝          ║
+                         ║ Vex                                    ║
+         ╔═══════════════╩══════════════════╗                     ║
+         ║  Tartarus - Command List - CmDs  ║      ╔══════════════╩══════════════════════════╗
+         ╠══════════════════════════════════╣      ║ OS_Sys: CenOS [6] - [7]                 ║
+         ║ .help - Full List of Commands    ║      ║ CCR: XXX-223-389                        ║
+         ║ .stress - List of DDoS Commands  ╠══════╣ CIPHER: SHA-512 , AES-BYTE , CIPHER-TLS ║
+         ║ .logout - Logs out of the C2     ║      ║ STATE: PRIVATE                          ║
+         ║ .clear - Clears screen           ║      ║ OBJ-TYPE: C2 SOURCE X TELNET LAYER      ║
+         ║ .tools - List of available tools ║      ║ LSC: GL3.0                              ║
+         ╚══════════════════════════════════╝      ╚═════════════════════════════════════════╝
+
+
+
+
+
+
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+Purple: \e[38;5;93m
+echo -e "
+\e[38;5;201m╔════════════════════════════════════╗                 ╔════════════════════════╗
+\e[38;5;201m║  \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mMain Menu \e[38;5;201m- \e[38;5;202mWelcome!   \e[38;5;201m║          ╔══════╣ \e[38;5;202mSuggested Port\e[38;5;201m: \e[38;5;202m62627  \e[38;5;201m║
+\e[38;5;201m╠════════════════════════════════════╣          ║      \e[38;5;201m║ \e[38;5;202mSuggested Psize\e[38;5;201m: \e[38;5;202m1460  \e[38;5;201m║
+\e[38;5;201m║    \e[38;5;202mWelcome to Project Tartarus I     \e[38;5;201m╠═══╗      ║      \e[38;5;201m║ \e[38;5;202mSuggested Method\e[38;5;201m: \e[38;5;202mSTD  \e[38;5;201m║
+\e[38;5;201m║  \e[38;5;202mThis source is currently in beta  \e[38;5;201m║   ║    ╔═╩══╗   \e[38;5;201m║ \e[38;5;202mMax Attack time\e[38;5;201m: \e[38;5;202m300   \e[38;5;201m║
+\e[38;5;201m╚═══════════════╦════════════════════╝   ╚════╣ \e[38;5;93m<3 \e[38;5;201m╠═╗ ╚════════════════════════╝
+                \e[38;5;201m║ \e[38;5;93m  Vex     \e[38;5;201m ╚════╝ \e[38;5;201m║  \e[38;5;202mUsername\e[38;5;201m: \e[38;5;93mVex
+                \e[38;5;201m║         \e[38;5;93m      \e[38;5;201m║  \e[38;5;202mLevel\e[38;5;201m: \e[38;5;93mAdmin
+\e[38;5;201m╔═══════════════╩══════════════════╗                 \e[38;5;201m║  \e[38;5;202mPlan\e[38;5;201m:\e[38;5;93m Owner                       
+\e[38;5;201m║  \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mCommand List \e[38;5;201m- \e[38;5;202mCmDs  \e[38;5;201m║  ╔══════════════╩══════════════════════════╗
+\e[38;5;201m╠══════════════════════════════════╣  ║ \e[38;5;202mOS_System\e[38;5;201m: \e[38;5;202mCentOS \e[38;5;201m[\e[38;5;202m6\e[38;5;201m] - [\e[38;5;202m7\e[38;5;201m]             \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.help \e[38;5;201m- \e[38;5;202mFull List of Commands    \e[38;5;201m║  ║ \e[38;5;202mCCR\e[38;5;201m: \e[38;5;202mXXX-223-389                        \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.stress \e[38;5;201m- \e[38;5;202mList of DDoS Commands  \e[38;5;201m╠══╣ \e[38;5;202mCIPHER\e[38;5;201m: \e[38;5;202mSHA-512 , AES-BYTE , CIPHER-TLS \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.logout \e[38;5;201m- \e[38;5;202mLogs out of the C2     \e[38;5;201m║  ║ \e[38;5;202mSTATE\e[38;5;201m: \e[38;5;202mPRIVATE                          \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.clear \e[38;5;201m- \e[38;5;202mClears screen           \e[38;5;201m║  ║ \e[38;5;202mOBJ-TYPE\e[38;5;201m: \e[38;5;202mC2 SOURCE X TELNET LAYER      \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.tools \e[38;5;201m- \e[38;5;202mList of available tools \e[38;5;201m║  ║ \e[38;5;202mLSC\e[38;5;201m:\e[38;5;202m GL3.0                              \e[38;5;201m║
+\e[38;5;201m╚══════════════════════════════════╝  ╚═════════════════════════════════════════╝
+"
+
+
+
+
+
+
+
+
+╔════════════════════════════════════╗                 ╔════════════════════════╗
+║  Tartarus - Main Menu - Welcome!   ║          ╔══════╣ Suggested Port: 62627  ║
+╠════════════════════════════════════╣          ║      ║ Suggested Psize: 1460  ║
+║    Welcome to Project Tartarus     ╠═══╗      ║      ║ Suggested Method: STD  ║
+║  This source is currently in beta  ║   ║    ╔═╩══╗   ║ Max Attack time - 300  ║
+╚═══════════════╦════════════════════╝   ╚════╣ <3 ╠═╗ ╚════════════════════════╝
+                ║ Vexvain                     ╚════╝ ║  Username: Vex
+                ║ Vex                                ║  Level: Admin
+╔═══════════════╩══════════════════╗                 ║  Plan: Owner                       
+║  Tartarus I - Command List - CmDs  ║  ╔══════════════╩══════════════════════════╗
+╠══════════════════════════════════╣  ║ OS_System: CentOS [6] - [7]             ║
+║ .help - Full List of Commands    ║  ║ CCR: XXX-223-389                        ║
+║ .stress - List of DDoS Commands  ╠══╣ CIPHER: SHA-512 , AES-BYTE , CIPHER-TLS ║
+║ .logout - Logs out of the C2     ║  ║ STATE: PRIVATE                          ║
+║ .clear - Clears screen           ║  ║ OBJ-TYPE: C2 SOURCE X TELNET LAYER      ║
+║ .tools - List of available tools ║  ║ LSC: GL3.0                              ║
+╚══════════════════════════════════╝  ╚═════════════════════════════════════════╝
+
+
+
+
+
+   echo -e "
+\e[38;5;201m╔════════════════════════════════════╗
+\e[38;5;201m║  \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mMain Menu \e[38;5;201m- \e[38;5;202mWelcome!   \e[38;5;201m║
+\e[38;5;201m╠════════════════════════════════════╣
+\e[38;5;201m║   \e[38;5;202m Welcome to Project Tartarus I    \e[38;5;201m ╠════╗
+\e[38;5;201m║  \e[38;5;202mThis source is currently in beta \e[38;5;201m ║    ║       ╔════╗
+\e[38;5;201m╚══════════════════╦═════════════════╝    ╚═══════╣ \e[38;5;93m<3 \e[38;5;201m╠══╗
+                  \e[38;5;201m ║ \e[38;5;93m  Vex      \e[38;5;201m ╚════╝  \e[38;5;201m║
+                  \e[38;5;201m ║ \e[38;5;93m                \e[38;5;201m║
+   \e[38;5;201m╔═══════════════╩══════════════════╗                   \e[38;5;201m║
+   \e[38;5;201m║  \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mCommand List \e[38;5;201m- \e[38;5;202mCmDs  \e[38;5;201m║    ╔══════════════╩══════════════════════════╗
+   \e[38;5;201m╠══════════════════════════════════╣    ║ \e[38;5;202mOS_Sys\e[38;5;201m: \e[38;5;202mCentOS \e[38;5;201m[\e[38;5;202m6\e[38;5;201m] - [\e[38;5;202m7\e[38;5;201m]                \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202m.help \e[38;5;201m- \e[38;5;202mFull List of Commands    \e[38;5;201m║    ║ \e[38;5;202mCCR\e[38;5;201m: \e[38;5;202mXXX-223-389                        \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202m.stress \e[38;5;201m- \e[38;5;202mList of DDoS Commands  \e[38;5;201m╠════╣ \e[38;5;202mCIPHER\e[38;5;201m: \e[38;5;202mSHA-512 , AES-BYTE , CIPHER-TLS \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202m.logout \e[38;5;201m- \e[38;5;202mLogs out of the C2     \e[38;5;201m║    ║ \e[38;5;202mSTATE\e[38;5;201m: \e[38;5;202mPRIVATE                          \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202m.clear \e[38;5;201m- \e[38;5;202mClears screen           \e[38;5;201m║    ║ \e[38;5;202mOBJ-TYPE\e[38;5;201m: \e[38;5;202mC2 SOURCE X TELNET LAYER      \e[38;5;201m║
+   \e[38;5;201m║ \e[38;5;202m.tools \e[38;5;201m-\e[38;5;202m List of available tools \e[38;5;201m║    ║ \e[38;5;202mLSC\e[38;5;201m: \e[38;5;202mGL3.0                              \e[38;5;201m║
+   \e[38;5;201m╚══════════════════════════════════╝    ╚═════════════════════════════════════════╝
+"
+
+
+
+
+╔════════════════════════════════════════════╗
+║ Tartarus - Device Listing - Arch Detection ║
+╠════════════════════════════════════════════╣
+║ Mips Devices: %d                           ║
+║ Arm Devices: %d                            ║
+║ Sh4 Devices: %d                            ║
+║ Ppc Devices: %d                            ║
+║ x86 Devices: %d                            ║
+║ Spc Devices: %d                            ║
+║ Total IoT Devices: %d                      ║
+╚════════════════════════════════════════════╝
+
+
+
+compileas = ["ntpd", #mips
+             "sshd", #mipsel
+             "openssh", #sh4
+             "bash", #x86
+             "tftp", #Armv6l
+             "wget", #i686
+             "cron", #ppc
+             "ftp", #i586
+             "pftp", #m68k
+             "sh",
+             "[cpu]",
+             "apache2",
+             "telnetd"]
+
+\r\n");
+
+Junk is using ajunk flood
+lynx is using alynx flood 
+std is using astd flood 
+udp is using audp flood
+combo is using ajunk and ahold flood 
+tcp is using atcp flood with seperate / AIO headers.
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+
+
+\e[38;5;201m╔═════════════════════════════════════════════════════╗
+\e[38;5;201m║ \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mDDoS Method Listing \e[38;5;201m- \e[38;5;202mAttack Method CmDs \e[38;5;201m║
+\e[38;5;201m╠═════════════════════════════════════════════════════╣
+\e[38;5;201m║ \e[38;5;202m.STD \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]                             \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.UDP \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]\e[38;5;202m 32 1460 10                  \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.JUNK \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]                            \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.CRUSH \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]\e[38;5;202m 32 ALL 1460 10            \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.STOMP \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]\e[38;5;202m 32 ALL 1460 10            \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.TCP \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]\e[38;5;202m 32 \e[38;5;201m(\e[38;5;202mFlags\e[38;5;201m/\e[38;5;202mALL\e[38;5;201m)\e[38;5;202m 0 10         \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.COMBO \e[38;5;201m[\e[38;5;202mIP\e[38;5;201m] \e[38;5;201m[\e[38;5;202mPORT\e[38;5;201m] \e[38;5;201m[\e[38;5;202mTIME\e[38;5;201m]                           \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.STOP \e[38;5;201m[This will stop your attack!]                 \e[38;5;201m║
+\e[38;5;201m╚═════════════════════════════════════════════════════╝
+
+
+╔═══════════════════════════════════════════════╗
+║    Tartarus - Admin commands - Admin Tools    ║
+╠═══════════════════════════════════════════════╣
+║ .adduser [Username] [Password] [admin/normal] ║
+║ .bots [Shows a list of connected devices]     ║
+╚═══════════════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+
+\e[38;5;201m╔═══════════════════════════════════════════════╗
+\e[38;5;201m║    \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mAdmin commands \e[38;5;201m- \e[38;5;202mAdmin Tools    \e[38;5;201m║
+\e[38;5;201m╠═══════════════════════════════════════════════╣
+\e[38;5;201m║ \e[38;5;202m.adduser \e[38;5;201m[\e[38;5;202mUsername\e[38;5;201m] [\e[38;5;202mPassword\e[38;5;201m] [\e[38;5;202madmin\e[38;5;201m/\e[38;5;202mnormal\e[38;5;201m] \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202m.bots \e[38;5;201m[\e[38;5;202mShows a list of connected devices\e[38;5;201m]     \e[38;5;201m║
+\e[38;5;201m╚═══════════════════════════════════════════════╝
+
+[Adds User]         adduser   [USER] [PASS] [admin/normal]\r\n");
+[Installs IPHMS]    AMPINSTALL\r\n");
+
+UDP, TCP, STD, JUNK, COMBO, LYNX
+ "          [+]  M E T H O D S [+]\r\n");
+ "!* STD [IP] [PORT] [TIME]\r\n");
+ "!* UDP [IP] [PORT] [TIME] 32 1460 10\r\n");
+ "!* TCP [IP] [PORT] [TIME] 32 ALL 0 10\r\n");
+ "!* STOMP [IP] [PORT] [TIME] 32 ALL 1460 10\r\n");
+ "!* CRUSH [IP] [PORT] [TIME] 32 ALL 1460 10\r\n");
+  "!* Tartarus [IP] [PORT] [TIME]\r\n");
+  "!* HEX [IP] [PORT] [TIME] 1460\r\n");
+
+      sprintf(special_tool_cmd1,   "[+]Admin Commands[+]\r\n");
+        sprintf(special_tool_line1,  "[+]---------------------------------------------------------\r\n");
+        sprintf(tool_1,              "[IP Geolocation]      iplookup   [IP]\r\n");
+        sprintf(tool_2,              "[PortScanner]         portscan  [IP]\r\n");
+        sprintf(tool_3,              "[Domain Resolver]     resolve  [IP]\r\n");
+        sprintf(special_tool_line2,  "[+]---------------------------------------------------------\r\n");
+
+
+╔═════════════════════════════════════╗
+║  Tartarus - User Tools - Tool CmDs  ║
+╠═════════════════════════════════════╣
+║ iplookup [IP] - IP Geolocation      ║
+║ portscan [IP] - PortScanner         ║
+║ resolve [HOST] - Hostname Resolver  ║
+╚═════════════════════════════════════╝
+
+Banner pink: \e[38;5;201m
+Inner orange: \e[38;5;202m
+
+\e[38;5;201m╔═════════════════════════════════════╗
+\e[38;5;201m║  \e[38;5;202mTartarus I \e[38;5;201m- \e[38;5;202mUser Tools \e[38;5;201m- \e[38;5;202mTool CmDs  \e[38;5;201m║
+\e[38;5;201m╠═════════════════════════════════════╣
+\e[38;5;201m║ \e[38;5;202miplookup \e[38;5;201m[IP\e[38;5;201m] - \e[38;5;202mIP Geolocation      \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202mportscan \e[38;5;201m[IP\e[38;5;201m] - \e[38;5;202mPortScanner         \e[38;5;201m║
+\e[38;5;201m║ \e[38;5;202mresolve \e[38;5;201m[HOST\e[38;5;201m] - \e[38;5;202mHostname Resolver  \e[38;5;201m║
+\e[38;5;201m╚═════════════════════════════════════╝
+
+╔═════════════════════════╗
+║         Tartarus        ║                                 ╔═════════════════════════╗
+║           ---           ║                                 ║     TARTARUS : BETA     ║
+║          GL3.0          ║                                 ╚═════════════════════════╝
+║           666           ║
+╚═════════════════════════╝ 
+
+╔═════════════════════════════════════════════════════════════════╗
+║                             VEXVAIN                             ║
+╠═════════════════════════════════════════════════════════════════║
+║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                        
+║  VALID     :  09/21/20                                          ║                                                                    
+║  EXPIRY    :  09/21/23                                          ║                                                                           
+║  --                                                             ║                                                                                      
+║  STATE     :  PRIVATE                                           ║                                                                       
+║  OWNERSHIP :  N/A                                               ║  
+║  NAME      :  TARTARUS                                          ║                                                                           
+║  --                                                             ║                                                                            
+║  CCR       : XXX-223-389                                        ║                                                                             
+║  CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                    ║                                                                             
+║  GH-ID     : VEX-VAIN.SUCC                                      ║                                                                                 
+║  --                                                             ║                                                                         
+║  OBJ-TYPE  : C2 SOURCE X TELNET LAYER                           ║ 
+║  VSSH      : N/A                                                ║                                                                            
+║  OS_TYPE   : CENT_OS [6] - [7]                                  ║                                                                           
+║  --                                                             ║                                        
+║  BUILD     : BETA [RELEASE BEFORE VERSION I]                    ║   
+║  DESC      : NET-WSS                                            ║ 
+║  PRJ-VAS   : 6949-3853-9891                                     ║                                                                              
+║  --        :                                                    ║                                                                            
+║  --        :                                                    ║               
+║  DEV-ALIAS : :) :) :) :) :)                                     ║                                                                                                                            
+╚═════════════════════════════════════════════════════════════════╩
+
+
+║  Main Commands Listing  ║
+╠═════════════════════════╣
+║ .help
+║ .logout
+
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;82m @
+
+
+echo -e "
+\e[38;5;201m╔═════════════════════════╗
+\e[38;5;201m║         \e[38;5;202mTartarus I        \e[38;5;201m║
+\e[38;5;201m║           \e[38;5;201m---           ║
+\e[38;5;201m║         \e[38;5;202m GL3.0          \e[38;5;201m║
+\e[38;5;201m║          \e[38;5;202m 666           \e[38;5;201m║
+\e[38;5;201m╚═════════════════════════╝
+
+This project requires a 129x27 based environment. please expand your window size!
+
+
+\e[38;5;93m = Purple
+\e[38;5;202m = Orange
+
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m] @ [\e[38;5;202mTartarus\e[38;5;93m] \e[38;5;154m$\e[38;5;202m @
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;202m @
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m:\e[38;5;202m @
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus ~\e[38;5;93m]\e[38;5;202m# @
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus \e[38;5;93m~]\e[38;5;202m# @
+
+
+\e[38;5;202m[\e[38;5;93mVex\e[38;5;202m] @ [\e[38;5;93mTartarus\e[38;5;202m] \e[38;5;154m$\e[38;5;93m @
+\e[38;5;202m[\e[38;5;93mVex\e[38;5;202m@\e[38;5;93mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;93m @
+\e[38;5;202m[\e[38;5;93mVex\e[38;5;202m@\e[38;5;93mTartarus\e[38;5;93m]\e[38;5;154m:\e[38;5;93m @
+\e[38;5;202m[\e[38;5;93mVex\e[38;5;202m@\e[38;5;93mTartarus ~\e[38;5;202m]\e[38;5;93m# @
+\e[38;5;202m[\e[38;5;93mVex\e[38;5;202m@\e[38;5;93mTartarus \e[38;5;202m~]\e[38;5;93m# @
+
+[root@Vexvain ~]#
+
+
+
+echo -e "
+\e[38;5;201m╔═════════════════════════╗
+\e[38;5;201m║         \e[38;5;202mTartarus I        \e[38;5;201m║
+\e[38;5;201m║           \e[38;5;201m---           ║
+\e[38;5;201m║         \e[38;5;202m GL3.0          \e[38;5;201m║
+\e[38;5;201m║          \e[38;5;202m 666           \e[38;5;201m║
+\e[38;5;201m╚═════════════════════════╝
+
+\e[38;5;93m[\e[38;5;202mVex\e[38;5;93m@\e[38;5;202mTartarus\e[38;5;93m]\e[38;5;154m$\e[38;5;82m @
+
+
+Purple Outline x Inner Orange
+echo -e "
+
+\e[38;5;93m = Purple
+\e[38;5;202m = Orange
+
+Orange Outline x Inner Purple
+echo -e "Error"
