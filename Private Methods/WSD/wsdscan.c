@@ -1,5 +1,5 @@
-//possibly working WSD Amplification Scanner Because I can't code C to save my fucking life.
-// Fucking love me you god damn hoes - Entity
+//WSD Amplification Scanner in the works.
+// I love you
 
 #include <pthread.h>
 #include <unistd.h>
