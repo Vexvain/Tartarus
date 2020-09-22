@@ -1,9 +1,5 @@
 /*
-modified interpreter through malloc
-payload stat should now be properly set
-literally tryna keep this shit priv8
-
-oh well fuck it, jack can have it
+:)
 */
 
 #include <pthread.h>
