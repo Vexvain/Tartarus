@@ -1,4 +1,4 @@
-# Setup by :)
+# Setup by Vexvain :)
 import subprocess, time
 
 def Tartarus(cmd):
