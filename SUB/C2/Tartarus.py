@@ -1,4 +1,4 @@
-#Python auto cross compiler by void
+#Python auto cross compiler
 
 import subprocess, urllib2, sys
 
