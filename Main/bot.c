@@ -1,4 +1,38 @@
 /*
+╔═════════════════════════╗
+║         Tartarus        ║                                 ╔═════════════════════════╗
+║           ---           ║                                 ║     Tartarus : BETA     ║
+║          GL3.0          ║                                 ╚═════════════════════════╝
+║           666           ║
+╚═════════════════════════╝ 
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ THIS VERSION WILL BE RELEASED TO THE PUBLIC FOR EDUCATIONAL PURPOSES. I AM NOT RESPONSIBLE FOR ANY CYBER ABUSE FROM THE COMMUNITY              ║                 
+║ IF YOU ARE USING THIS, PLEASE RESPECT THE AUTHORIZATION AND WORK THE DEVELOPERS HAVE PUT INTO THIS SOURCE / PROJECT                            ║                 
+╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╠
+                                        ║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                     
+                                        ║  VALID     :  03/23/19                                          ║                                                                    
+                                        ║  EXPIRY    :  03/23/22                                          ║                                                                        
+                                        ║  --                                                             ║                                                                                
+                                        ║  STATE     :  PRIVATE                                           ║                                                                    
+                                        ║  OWNERSHIP :  N/A                                               ║ 
+                                        ║  NAME      :  ARCEUS I                                          ║                                                                          
+                                        ║  --                                                             ║                                                                        
+                                        ║  CCR       : XXX-223-389                                        ║                                                                        
+                                        ║  CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                    ║                                                                        
+                                        ║  GH-ID     : ZCH-CRI.SUCC                                       ║                                                                            
+                                        ║  --                                                             ║                                                                     
+                                        ║  OBJ-TYPE  : C2 SOURCE X TELNET LAYER                           ║ 
+                                        ║  VSSH      : N/A                                                ║                                                                         
+                                        ║  OS_TYPE   : CENT_OS [6] - [7]                                  ║                                                                        
+                                        ║  --                                                             ║                                    
+                                        ║  BUILD     : BETA [RELEASE BEFORE VERSION I]                    ║ 
+                                        ║  DESC      : NET-WSS                                            ║        
+                                        ║  PRJ-VAS   : 6949-3853-9891                                     ║                                                                          
+                                        ║  --        :                                                    ║                                                                        
+                                        ║  --        :                                                    ║     
+                                        ║  DEV-ALIAS : TRANSMISSIONAL / FLEXINGONLAMERS                   ║                                                               
+                                        ╚═════════════════════════════════════════════════════════════════╩
 =============================================
 Method explanation:
 ACK: Uses custom flood of ACK (Believed to be TCP-ACK)
