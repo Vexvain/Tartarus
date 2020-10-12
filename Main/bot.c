@@ -11,27 +11,27 @@
 ║ IF YOU ARE USING THIS, PLEASE RESPECT THE AUTHORIZATION AND WORK THE DEVELOPERS HAVE PUT INTO THIS SOURCE / PROJECT                            ║                 
 ╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╠
                                         ║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                     
-                                        ║  VALID     :  03/23/19                                          ║                                                                    
-                                        ║  EXPIRY    :  03/23/22                                          ║                                                                        
+                                        ║  VALID     :  010/01/20                                         ║                                                                    
+                                        ║  EXPIRY    :  010/01/23                                         ║                                                                        
                                         ║  --                                                             ║                                                                                
-                                        ║  STATE     :  PRIVATE                                           ║                                                                    
-                                        ║  OWNERSHIP :  N/A                                               ║ 
-                                        ║  NAME      :  ARCEUS I                                          ║                                                                          
+                                        ║  STATE     :  PUBLIC                                            ║                                                                    
+                                        ║  OWNERSHIP :  VEXVAIN                                           ║ 
+                                        ║  NAME      :  TARTARUS                                          ║                                                                          
                                         ║  --                                                             ║                                                                        
                                         ║  CCR       : XXX-223-389                                        ║                                                                        
                                         ║  CIPHER    : SHA-512 , AES-BYTE , CIPHER-TLS                    ║                                                                        
-                                        ║  GH-ID     : ZCH-CRI.SUCC                                       ║                                                                            
+                                        ║  GH-ID     : VEXVAIN.HECK                                       ║                                                                            
                                         ║  --                                                             ║                                                                     
                                         ║  OBJ-TYPE  : C2 SOURCE X TELNET LAYER                           ║ 
                                         ║  VSSH      : N/A                                                ║                                                                         
                                         ║  OS_TYPE   : CENT_OS [6] - [7]                                  ║                                                                        
                                         ║  --                                                             ║                                    
-                                        ║  BUILD     : BETA [RELEASE BEFORE VERSION I]                    ║ 
+                                        ║  BUILD     : BETA [WORK IN PROGRESS]                            ║ 
                                         ║  DESC      : NET-WSS                                            ║        
                                         ║  PRJ-VAS   : 6949-3853-9891                                     ║                                                                          
                                         ║  --        :                                                    ║                                                                        
                                         ║  --        :                                                    ║     
-                                        ║  DEV-ALIAS : TRANSMISSIONAL / FLEXINGONLAMERS                   ║                                                               
+                                        ║  DEV-ALIAS : VEXVAIN                                            ║                                                               
                                         ╚═════════════════════════════════════════════════════════════════╩
 =============================================
 Method explanation:
