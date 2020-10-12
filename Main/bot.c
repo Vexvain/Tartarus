@@ -11,8 +11,8 @@
 ║ IF YOU ARE USING THIS, PLEASE RESPECT THE AUTHORIZATION AND WORK THE DEVELOPERS HAVE PUT INTO THIS SOURCE / PROJECT                            ║                 
 ╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╠
                                         ║  LICENSING :  GNUV3 [GNU GENERAL PUBLIC LICENSE VERSION 3.0]    ║                                                                     
-                                        ║  VALID     :  010/01/20                                         ║                                                                    
-                                        ║  EXPIRY    :  010/01/23                                         ║                                                                        
+                                        ║  VALID     :  10/01/20                                          ║                                                                    
+                                        ║  EXPIRY    :  10/01/23                                          ║                                                                        
                                         ║  --                                                             ║                                                                                
                                         ║  STATE     :  PUBLIC                                            ║                                                                    
                                         ║  OWNERSHIP :  VEXVAIN                                           ║ 
